@@ -13,12 +13,18 @@ ul {
 }
 .logo {
   color: black;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 .logo-web {
   color: #2196f3;
 }
 .site-nav .link {
   color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -29,6 +35,9 @@ ul {
 }
 .contacts-info a {
   color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .contacts-info a:hover,
 .contacts-info a:focus {
@@ -40,6 +49,9 @@ ul {
 }
 .hero-tittle {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
 /*button*/
 .main-button {
@@ -47,10 +59,44 @@ ul {
   background-color: #2196f3;
   border-color: transparent;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 /*section-tittle*/
 .section-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.tittle-photo {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.tittle-team {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.team-name {
+  color: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 .portfolio-tittle {
   display: none;
@@ -60,6 +106,9 @@ ul {
   background-color: #f5f4fa;
   border-color: transparent;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 .button:hover,
 .button:focus {
@@ -69,10 +118,33 @@ ul {
   color: var(--accent-color);
   border-color: transparent;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.option-tittle {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.option-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 .page-footer {
   background-color: #2f303a;
 }
 .footer-logo-studio {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.contact-footer a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
