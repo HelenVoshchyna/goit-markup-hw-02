@@ -1,0 +1,78 @@
+:root {
+  --primery-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--primery-text-color);
+  background-color: #f5f5f5;
+  font-family: Roboto;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: black;
+}
+.logo-web {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link-current {
+  color: var(--accent-color);
+}
+.contacts-info a {
+  color: #757575;
+}
+.contacts-info a:hover,
+.contacts-info a:focus {
+  color: var(--accent-color);
+}
+/*hero-tittle*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-tittle {
+  color: #ffffff;
+}
+/*button*/
+.main-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  border-color: transparent;
+  cursor: pointer;
+}
+/*section-tittle*/
+.section-tittle {
+  color: var(--tittle-text-color);
+}
+.portfolio-tittle {
+  display: none;
+}
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+  border-color: transparent;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+.button-current {
+  color: var(--accent-color);
+  border-color: transparent;
+  cursor: pointer;
+}
+.page-footer {
+  background-color: #2f303a;
+}
+.footer-logo-studio {
+  color: #ffffff;
+}
