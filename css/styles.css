@@ -5,8 +5,10 @@
 }
 body {
   color: var(--primery-text-color);
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
@@ -16,6 +18,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .logo-web {
   color: #2196f3;
@@ -25,6 +28,8 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 500;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -32,12 +37,16 @@ ul {
 }
 .site-nav .link-current {
   color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
 }
 .contacts-info a {
   color: #757575;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 500;
 }
 .contacts-info a:hover,
 .contacts-info a:focus {
@@ -46,6 +55,8 @@ ul {
 /*hero-tittle*/
 .hero {
   background-color: #2f303a;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-tittle {
   color: #ffffff;
@@ -62,6 +73,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  letter-spacing: 0.06em;
 }
 /*section-tittle*/
 .section-tittle {
@@ -69,9 +81,9 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  text-transform: uppercase;
 }
 .section-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
@@ -112,15 +124,8 @@ ul {
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
-}
-.button-current {
-  color: var(--accent-color);
-  border-color: transparent;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  color: white;
+  background-color: #2196f3;
 }
 .option-tittle {
   color: var(--tittle-text-color);
@@ -135,6 +140,7 @@ ul {
 }
 .page-footer {
   background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-logo-studio {
   color: #ffffff;
@@ -144,7 +150,15 @@ ul {
 }
 .contact-footer a {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
+  font-style: normal;
+}
+.contact-footer a:hover,
+.contact-footer a:focus {
+  color: var(--accent-color);
+}
+.contact-footer .address {
+  color: #ffffff;
 }
